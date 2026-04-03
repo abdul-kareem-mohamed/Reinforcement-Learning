@@ -21,7 +21,7 @@ class Bandit:
     # p: the win rate
     self.p = p
     self.p_estimate = 10
-    self.N = 10000
+    self.N = 1
 
   def pull(self):
     # draw a 1 with probability p
